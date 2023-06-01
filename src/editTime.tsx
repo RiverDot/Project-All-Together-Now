@@ -1,11 +1,10 @@
 // @ts-ignore
-import { route } from 'preact-router';
+//import { route } from 'preact-router';
 
-import { supabase } from "./supabaseClient";
-import { useState } from 'preact/hooks';
-import * as dayjs from 'dayjs'
+//import { supabase } from "./supabaseClient";
+//import { useState } from 'preact/hooks';
 
-export function EditTime() {
+/*export function EditTime() {
 
     const [startTime, setStartTime] = useState('')
     const [endTime, setEndTime] = useState('')
@@ -96,4 +95,4 @@ export function EditTime() {
             </div>
         </>
     )
-}
+} */

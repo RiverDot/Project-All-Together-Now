@@ -8,10 +8,12 @@ export function AuthMenu() {
             provider: 'discord'
         })
         console.log(data)
+        console.error(error)
     }
 
     async function logout() {
         let { error } = await supabase.auth.signOut()
+        console.error(error)
     }
 
     return (

@@ -24,6 +24,7 @@ export function App() {
 
   useEffect(() => {
     getUser()
+    console.log(User)
   }, [])
 
 

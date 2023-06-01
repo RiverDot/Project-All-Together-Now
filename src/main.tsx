@@ -6,7 +6,7 @@ import { App } from './app.tsx'
 import { AuthMenu } from "./auth"
 import { DateTimePicker } from './datePicker.tsx';
 import { TimePicker } from './timePicker.tsx';
-import { EditTime } from './editTime.tsx';
+//import { EditTime } from './editTime.tsx';
 
 import './index.css'
 
@@ -15,7 +15,7 @@ const Main = () => (
         <App path="/" />
         <DateTimePicker path="/date" />
         <TimePicker path="/time" />
-        <EditTime path="/edit-time" />
+        {/*<EditTime path="/edit-time" />*/}
         <AuthMenu path="/auth" />
     </Router>
 );
