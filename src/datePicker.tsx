@@ -3,7 +3,7 @@ import { route } from 'preact-router';
 
 import { supabase } from "./supabaseClient";
 import { useState } from 'preact/hooks';
-import * as dayjs from 'dayjs'
+import dayjs from 'dayjs';
 
 export function DateTimePicker() {
 
