@@ -3,6 +3,7 @@ import preact from '@preact/preset-vite'
 import { VitePWA, VitePWAOptions } from 'vite-plugin-pwa'
 
 const pwaOptions: Partial<VitePWAOptions> = {
+  registerType: 'autoUpdate',
   mode: 'development',
   base: '/',
   includeAssets: ['favicon.svg'],
